@@ -577,7 +577,7 @@ def get_ai_diagnosis(clinical_data, radiographic_data, image_base64=None):
         """
         
         # Replicate API configuration
-        api_token = "r8_3kgRNUIn1RdbjIugQ8EOFg8lZQiE9by0EgLOH"
+        api_token = ""
         headers = {
             "Authorization": f"Token {api_token}",
             "Content-Type": "application/json",
